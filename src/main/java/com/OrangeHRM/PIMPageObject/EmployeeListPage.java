@@ -11,13 +11,16 @@ public class EmployeeListPage extends Base{
 
 	Action action = new Action();
 	
-	@FindBy(name = "username")
-	private WebElement username;
-
+	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[3]")
+	private WebElement addEmpBtn;
+	
 	public EmployeeListPage() {
 		PageFactory.initElements(getDriver(), this);
 	}
 
-	public void login() {
+	public AddEmployeePage clickOnAddEmpBtn() {
+		
+		action.click(getDriver(), addEmpBtn);
+		return new AddEmployeePage();
 	}
 }

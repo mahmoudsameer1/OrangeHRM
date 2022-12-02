@@ -28,13 +28,14 @@ public class LoginTest extends Base {
 		getDriver().quit();
 	}
 
-	@Test(dataProvider = "credentials", dataProviderClass = DataProviders.class)
-	public void loginTest(String uname, String pswd) throws Throwable {
+	
+	@Test
+	public void loginTest() throws InterruptedException {
 		Log.startTestCase("loginTest");
 		loginPage = new LoginPage();
 		dashboardPage = new DashboardPage();
 		
-		dashboardPage = loginPage.login(uname, pswd);
+		dashboardPage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		String actTitle =dashboardPage.VerifyTitle();
 		String expTitle = "Dashboard";
 		Assert.assertEquals(actTitle, expTitle);

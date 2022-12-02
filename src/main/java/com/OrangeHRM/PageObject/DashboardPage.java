@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.OrangeHRM.Base.Base;
+import com.OrangeHRM.PIMPageObject.EmployeeListPage;
 import com.OrangeHRM.actiondriver.Action;
 
 public class DashboardPage extends Base {
@@ -14,6 +15,9 @@ public class DashboardPage extends Base {
 	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[1]/span/h6")
 	private WebElement title;
 
+	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[2]/a")
+	private WebElement PIMPageBtn;
+	
 	public DashboardPage() {
 		PageFactory.initElements(getDriver(), this);
 	}
@@ -23,4 +27,9 @@ public class DashboardPage extends Base {
 		return titleText;
 	}
 
+	public EmployeeListPage clickOnPIMPageBtn() {
+		
+		action.click(getDriver(), PIMPageBtn);
+		return new EmployeeListPage();
+	}
 }

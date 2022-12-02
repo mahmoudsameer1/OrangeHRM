@@ -11,13 +11,49 @@ public class AddEmployeePage extends Base {
 
 	Action action = new Action();
 
-	@FindBy(name = "username")
-	private WebElement username;
-
+	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/h6")
+	private WebElement terifyTitle;
+	
+	@FindBy(name = "firstName")
+	private WebElement firstName;
+	
+	@FindBy(name = "middleName")
+	private WebElement middleName;
+	
+	@FindBy(name = "lastName")
+	private WebElement lastName;
+	
+	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/input")
+	private WebElement empID;
+	
+	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[1]/div/div[2]/div/button")
+	private WebElement addImgBtn;
+	
+	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/button[2]")
+	private WebElement saveBtn;
+	
+	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/h6")
+	private WebElement presonalDetailsTitle;
+	
 	public AddEmployeePage() {
 		PageFactory.initElements(getDriver(), this);
 	}
 
-	public void login() {
+	public String vterifyTitle() {
+		
+		String actTitle =action.getText(terifyTitle);
+		return actTitle;
+	}
+	
+	public String addNewEmp(String firstname, String middlename, String lastname) throws InterruptedException {
+		
+		action.implicitWait(getDriver(),10);
+		action.typestring(firstName, firstname);
+		action.typestring(middleName, middlename);
+		action.typestring(lastName, lastname);
+		action.typestring(addImgBtn, "D:\\Eclips Work Space\\OrangeHRM\\src\\test\\resources\\Images\\istockphoto-926993450-612x612.jpg");
+		action.click(getDriver(), saveBtn);
+		String actPersonalDetailsTitle = action.getText(presonalDetailsTitle);
+		return actPersonalDetailsTitle;
 	}
 }
