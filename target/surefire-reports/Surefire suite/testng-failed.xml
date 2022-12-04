@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.OrangeHRM.MyInfoTests.EmergencyContactsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.EmergencyContactsTest -->
+      <class name="com.OrangeHRM.LeaveTests.EntitlementTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.LeaveTests.EntitlementTest -->
+      <class name="com.OrangeHRM.MyInfoTests.PersonalDetailsTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.PersonalDetailsTest -->
+      <class name="com.OrangeHRM.MyInfoTests.TaxExemptionsTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.TaxExemptionsTest -->
+      <class name="com.OrangeHRM.PIMTests.AddEmployeeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="addNewEmployee"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.PIMTests.AddEmployeeTest -->
+      <class name="com.OrangeHRM.Tests.LoginTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.Tests.LoginTest -->
+      <class name="com.OrangeHRM.LeaveTests.AssignLeaveTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.LeaveTests.AssignLeaveTest -->
+      <class name="com.OrangeHRM.PIMTests.EmployeeList">
+        <methods>
+          <include name="loginTest"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.PIMTests.EmployeeList -->
+      <class name="com.OrangeHRM.MyInfoTests.JobTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.JobTest -->
+      <class name="com.OrangeHRM.MyInfoTests.MembershipsTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.MembershipsTest -->
+      <class name="com.OrangeHRM.Tests.DashboardTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.Tests.DashboardTest -->
+      <class name="com.OrangeHRM.MyInfoTests.DependentsTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.DependentsTest -->
+      <class name="com.OrangeHRM.PIMTests.ReportsTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.PIMTests.ReportsTest -->
+      <class name="com.OrangeHRM.MyInfoTests.SalaryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.SalaryTest -->
+      <class name="com.OrangeHRM.LeaveTests.MyLeaveListTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.LeaveTests.MyLeaveListTest -->
+      <class name="com.OrangeHRM.LeaveTests.ApplyLeaveTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.LeaveTests.ApplyLeaveTest -->
+      <class name="com.OrangeHRM.MyInfoTests.QualificationsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.QualificationsTest -->
+      <class name="com.OrangeHRM.LeaveTests.ReportTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.LeaveTests.ReportTest -->
+      <class name="com.OrangeHRM.LeaveTests.ConfigureTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.LeaveTests.ConfigureTest -->
+      <class name="com.OrangeHRM.MyInfoTests.ImmigrationTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.ImmigrationTest -->
+      <class name="com.OrangeHRM.LeaveTests.LeaveListTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.LeaveTests.LeaveListTest -->
+      <class name="com.OrangeHRM.MyInfoTests.ReporttoTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="loginTest"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.ReporttoTest -->
+      <class name="com.OrangeHRM.MyInfoTests.ContactDetailsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.MyInfoTests.ContactDetailsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

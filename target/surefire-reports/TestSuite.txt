@@ -1,0 +1,142 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 76, Failures: 23, Errors: 0, Skipped: 53, Time elapsed: 1.251 s <<< FAILURE! - in TestSuite
+setup(com.OrangeHRM.LeaveTests.ApplyLeaveTest)  Time elapsed: 0.495 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.LeaveTests.AssignLeaveTest)  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.LeaveTests.ConfigureTest)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.LeaveTests.EntitlementTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.LeaveTests.LeaveListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.LeaveTests.MyLeaveListTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.LeaveTests.ReportTest)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.ContactDetailsTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.DependentsTest)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.EmergencyContactsTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.ImmigrationTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.JobTest)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.MembershipsTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.PersonalDetailsTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.QualificationsTest)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.ReporttoTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.SalaryTest)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.MyInfoTests.TaxExemptionsTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.PIMTests.AddEmployeeTest)  Time elapsed: 0.505 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.PIMTests.EmployeeList)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.PIMTests.ReportsTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.Tests.DashboardTest)  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+setup(com.OrangeHRM.Tests.LoginTest)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
