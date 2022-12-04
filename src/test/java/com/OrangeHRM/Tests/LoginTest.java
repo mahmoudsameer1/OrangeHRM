@@ -31,11 +31,12 @@ public class LoginTest extends Base {
 	
 	@Test
 	public void loginTest() throws InterruptedException {
-		Log.startTestCase("loginTest");
+		//Log.startTestCase("loginTest");
 		loginPage = new LoginPage();
 		dashboardPage = new DashboardPage();
 		
-		dashboardPage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		dashboardPage =loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		
 		String actTitle =dashboardPage.VerifyTitle();
 		String expTitle = "Dashboard";
 		Assert.assertEquals(actTitle, expTitle);

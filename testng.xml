@@ -7,7 +7,7 @@
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="Chrome"></parameter>
 		<classes>
-			<class name="com.OrangeHRM.PIMTests.AddEmployeeTest" />
+			<class name="com.OrangeHRM.Tests.LoginTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

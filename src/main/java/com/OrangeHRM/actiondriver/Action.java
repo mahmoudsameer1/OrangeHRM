@@ -46,11 +46,8 @@ public class Action extends Base implements ActionInterface {
 	@Override
 	public String getText(WebElement ele) {
 
-		boolean flag = false;
-
 		String text = ele.getText();
 		return text;
-
 	}
 
 	@Override
