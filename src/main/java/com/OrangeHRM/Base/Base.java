@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -55,9 +56,9 @@ public class Base {
 		} else if (browserName.equalsIgnoreCase("FireFox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver.set(new FirefoxDriver());
-		} else if (browserName.equalsIgnoreCase("IE")) {
-			WebDriverManager.iedriver().setup();
-			driver.set(new InternetExplorerDriver());
+		} else if (browserName.equalsIgnoreCase("Edge")) {
+			WebDriverManager.edgedriver().setup();
+			driver.set(new EdgeDriver());
 		}
 		getDriver().manage().window().maximize();
 		getDriver().manage().deleteAllCookies();
